@@ -1,7 +1,7 @@
 module SmsSpec
   module Util
     def sanitize number
-      number.gsub(/^\+*1/, "").gsub("-", "")
+      number.gsub(/^\+*/, "").gsub("-", "")
     end
   end
 end
