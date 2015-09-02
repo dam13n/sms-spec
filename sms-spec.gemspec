@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rspec', '>= 0', '>= 0'
 
-  s.add_development_dependency "rspec"
   s.add_development_dependency "twilio-ruby"
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "pry"
